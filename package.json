@@ -1,0 +1,29 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "npx prettier . --check",
+    "format:fix": "npx prettier . --write"
+  },
+  "keywords": [],
+  "author": "ShypkoStanislav",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShypkoStanislav/kpi-lab1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShypkoStanislav/kpi-lab1/issues"
+  },
+  "homepage": "https://github.com/ShypkoStanislav/kpi-lab1#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "3.1.1"
+  }
+}
